@@ -13,7 +13,7 @@ const students = [
       age: 26
     }, 
     {
-      name: 'Ankit',
+      name: 'Ankit Singh',
       age: 25
     },
     {
