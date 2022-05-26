@@ -4,6 +4,8 @@ const object = {name:"Soham",
 }
 let {name, work, passion:alu} = object;
 
-let pacha = work.map(item=>item.length<=6?"Word length within 6":"Word length greater than 6");
+let acha = work.map(item=>item.length<=6?"Word length within 6":"Word length greater than 6");
+let bacha = alu.filter(item=>item==="music")
 console.log(alu[3]);
-console.log(...pacha);
+console.log(...acha);
+console.log(bacha);
