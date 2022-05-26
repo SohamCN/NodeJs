@@ -4,6 +4,6 @@ const object = {name:"Soham",
 }
 let {name, work, passion:alu} = object;
 
-let pacha = work.map(item=>item.length<=6?"Word length within 6":"Word length greater than 6")
+let pacha = work.map(item=>item.length<=6?"Word length within 6":"Word length greater than 6");
 console.log(alu[3]);
 console.log(...pacha);
